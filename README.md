@@ -7,7 +7,7 @@ If you are testing or running the project, use these default credentials to log 
 - **Username:** `admin`
 - **Password:** `12345678`
 
-*(Note: Entering the wrong password 3 times continuously will trigger the password recovery/reset prompt).*
+*(Note: Entering the wrong password 3 times continuously will trigger the password recovery).*
 
 ## Features Overview
 - **View Bus List:** Check out the available bus operators (Hanif, Shyamoli, Green Line, etc.).
