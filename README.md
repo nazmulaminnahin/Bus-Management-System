@@ -31,8 +31,9 @@ Make sure you have the GCC compiler installed on your system. Open your terminal
 ```powershell
 gcc main.c login_page.c bus_operations.c -o main
 .\main.exe
-
+```
 **Option 2: Compile combined single file**
 ```powershell
 gcc bus_management_system.c -o main
 .\main.exe
+```
