@@ -17,15 +17,22 @@ If you are testing or running the project, use these default credentials to log 
 - **Security & Recovery:** Secure password masking with `*` and a built-in forgot password flow.
 
 ## Project Structure
-The project is organized into multiple modular files for better maintainability:
+The project supports both modular execution and single-file compilation:
 - `main.c` - Entry point and main menu controller.
 - `login_page.c` - Handles authentication and password resetting.
 - `bus_operations.c` - Core logic for booking, viewing status, and cancellations.
 - `bus.h` - Shared header file containing function prototypes and global variables.
+- `bus_management_system.c` - Combined single-file version containing the complete codebase.
 
 ## How to Compile and Run
-Make sure you have GCC compiler installed on your system. Open your terminal or PowerShell inside the project folder and run the following command:
+Make sure you have the GCC compiler installed on your system. Open your terminal or PowerShell inside the project folder and run either of the following commands:
 
+**Option 1: Compile modular files (Recommended)**
 ```powershell
 gcc main.c login_page.c bus_operations.c -o main
+.\main.exe
+
+**Option 2: Compile combined single file**
+```powershell
+gcc bus_management_system.c -o main
 .\main.exe
