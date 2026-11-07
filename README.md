@@ -1,5 +1,10 @@
 # Bus Management System (C Project)
 
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Compiler](https://img.shields.io/badge/Compiler-GCC-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20PowerShell-0078D4.svg)
+![Architecture](https://img.shields.io/badge/Architecture-Modular-green.svg)
+
 This Bus Management System was built as a practical C-programming project to simulate real-world ticket counter operations. It handles everything from seat layout visualization and real-time ticket booking to cancellation refunds using C file handling. Designed with a structured multi-file architecture, clean console UI, and an extended login mechanism featuring password recovery.
 
 ## Default Login Credentials
